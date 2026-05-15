@@ -58,7 +58,10 @@ export default function Navigation() {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
-                  e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-dark text-white font-bold text-lg">A</div>';
+                  const parent = e.currentTarget.parentElement;
+                  if (parent) {
+                    parent.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-dark text-white font-bold text-lg">A</div>';
+                  }
                 }}
               />
             </div>

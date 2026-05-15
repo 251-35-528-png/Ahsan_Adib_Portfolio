@@ -5,18 +5,18 @@ const skillCategories = [
   {
     title: "Design Mastery",
     skills: [
-      { name: "Canva", color: "#00C4CC", slug: "canva", localPath: "/canva.png" },
-      { name: "Figma", color: "#F24E1E", slug: "figma", localPath: "/figma.png" },
-      { name: "Photoshop", color: "#31A8FF", slug: "adobephotoshop", localPath: "/photoshop.png" },
-      { name: "Illustrator", color: "#FF9A00", slug: "adobeillustrator", localPath: "/adobe illustrator.jpg" },
-      { name: "PixleArt", color: "#B13EFB", slug: "picsart", localPath: "/pixleart.jpg" },
-      { name: "Pixellab", color: "#3498DB", slug: "pixellab", localPath: "/pxellab.jfif" }
+      { name: "Canva", color: "#00C4CC", slug: "canva", localPath: "/image/canva.png" },
+      { name: "Figma", color: "#F24E1E", slug: "figma", localPath: "/image/figma.png" },
+      { name: "Photoshop", color: "#31A8FF", slug: "adobephotoshop", localPath: "/image/photoshop.png" },
+      { name: "Illustrator", color: "#FF9A00", slug: "adobeillustrator", localPath: "/image/adobe_illustrator.jpg" },
+      { name: "PixleArt", color: "#B13EFB", slug: "picsart", localPath: "/image/pixleart.jpg" },
+      { name: "Pixellab", color: "#3498DB", slug: "pixellab", localPath: "/image/pxellab.jfif" }
     ]
   },
   {
     title: "Development",
     skills: [
-      { name: "C", color: "#A8B9CC", slug: "c", localPath: "/C_Programming_Language.svg.png" },
+      { name: "C", color: "#A8B9CC", slug: "c", localPath: "/image/c_programming_language.svg.png" },
       { name: "C++", color: "#00599C", slug: "cplusplus", localPath: "/image/cpp.png" },
       { name: "HTML5", color: "#E34F26", slug: "html5" },
       { name: "JS", color: "#F7DF1E", slug: "javascript" },
@@ -26,26 +26,26 @@ const skillCategories = [
       { name: "Python", color: "#3776AB", slug: "python" },
       { name: "MySQL", color: "#4479A1", slug: "mysql" },
       { name: "Firebase", color: "#FFCA28", slug: "firebase" },
-      { name: "AI", color: "#FF6B00", slug: "openai", localPath: "/ai.png" },
+      { name: "AI", color: "#FF6B00", slug: "openai", localPath: "/image/ai.png" },
       { name: "GitHub", color: "#181717", slug: "github" },
       { name: "Vercel", color: "#000000", slug: "vercel" },
-      { name: "VS Code", color: "#007ACC", slug: "visualstudiocode", localPath: "/vs code.jfif" },
+      { name: "VS Code", color: "#007ACC", slug: "visualstudiocode", localPath: "/image/vs_code.jfif" },
       { name: "Linux", color: "#FCC624", slug: "linux" }
     ]
   },
   {
     title: "Multimedia",
     skills: [
-      { name: "Premiere Pro", color: "#EA77FF", slug: "adobepremierepro", localPath: "/download (2).png" },
-      { name: "After Effects", color: "#CF96FD", slug: "adobeaftereffects", localPath: "/adobe aftereffects .png" },
-      { name: "Capcut", color: "#000000", slug: "capcut", localPath: "/capcut .jfif" }
+      { name: "Premiere Pro", color: "#EA77FF", slug: "adobepremierepro", localPath: "/image/premiere_pro.png" },
+      { name: "After Effects", color: "#CF96FD", slug: "adobeaftereffects", localPath: "/image/adobe_aftereffects.png" },
+      { name: "Capcut", color: "#000000", slug: "capcut", localPath: "/image/capcut.jfif" }
     ]
   },
   {
     title: "Productivity",
     skills: [
-      { name: "Office", color: "#D83B01", slug: "microsoftoffice", localPath: "/ms ofice.jfif" },
-      { name: "Google", color: "#4285F4", slug: "google", localPath: "/google.png" }
+      { name: "Office", color: "#D83B01", slug: "microsoftoffice", localPath: "/image/ms_ofice.jfif" },
+      { name: "Google", color: "#4285F4", slug: "google", localPath: "/image/google.png" }
     ]
   }
 ];

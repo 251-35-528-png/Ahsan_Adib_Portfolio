@@ -75,9 +75,16 @@ export default function Hero() {
                 <div className="absolute inset-0 border border-gray-100 rounded-full" />
                 <div className="w-full h-full rounded-full overflow-hidden shadow-2xl relative z-10 border-4 border-white">
                   <img 
-                    src="/image/adib image.jpg" 
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
                     alt="Ahsan Adib" 
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+                      const parent = e.currentTarget.parentElement;
+                      if (parent) {
+                        parent.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-gray-100 text-gray-400 font-display text-4xl font-bold uppercase transition-all duration-1000 hover:bg-brand/10 hover:text-brand">Adib</div>';
+                      }
+                    }}
                   />
                 </div>
              </div>

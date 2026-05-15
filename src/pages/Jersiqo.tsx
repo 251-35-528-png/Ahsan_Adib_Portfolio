@@ -47,11 +47,15 @@ export default function Jersiqo() {
             <div className="absolute inset-0 bg-gradient-to-br from-brand/20 via-transparent to-transparent opacity-40" />
             <div className="absolute inset-0 border border-white/5 rounded-[80px] m-4 md:m-8" />
             <img 
-              src="/image/8.png" 
+              src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2067&auto=format&fit=crop" 
               alt="JERSIQO Logo" 
-              className="relative z-10 max-w-md mx-auto drop-shadow-[0_20px_80px_rgba(255,107,0,0.4)] group-hover:scale-105 transition-transform duration-1000"
+              className="relative z-10 w-full max-w-2xl mx-auto rounded-3xl object-cover drop-shadow-[0_20px_80px_rgba(255,107,0,0.4)] group-hover:scale-105 transition-transform duration-1000"
               onError={(e) => {
-                e.currentTarget.src = "/image/logo.png";
+                e.currentTarget.style.display = 'none';
+                const parent = e.currentTarget.parentElement;
+                if (parent) {
+                  parent.innerHTML = '<div class="w-full h-full flex items-center justify-center text-8xl font-black text-brand italic">JERSIQO</div>';
+                }
               }}
             />
           </motion.div>

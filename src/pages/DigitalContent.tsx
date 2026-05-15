@@ -56,7 +56,7 @@ const works = [
     id: 8,
     title: "AS Sourcing International",
     category: "Company Profile",
-    image: "/image/8.png",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop",
     description: "Comprehensive company profile branding for a global apparel sourcing house."
   },
   {
