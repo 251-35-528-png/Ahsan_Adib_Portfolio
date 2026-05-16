@@ -75,7 +75,7 @@ export default function Hero() {
                 <div className="absolute inset-0 border border-gray-100 rounded-full" />
                 <div className="w-full h-full rounded-full overflow-hidden shadow-2xl relative z-10 border-4 border-white">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                    src="/image/adib_image.jpg" 
                     alt="Ahsan Adib" 
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                     onError={(e) => {
